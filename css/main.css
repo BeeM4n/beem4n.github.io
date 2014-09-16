@@ -43,9 +43,7 @@ div.back_block {
 	height: 10%;
 }
 div.back_block.active {
-    border-radius: 0;
     border:1px solid #696;
-    outline:1px solid #696;
 }
 div.hover_block {
 	box-sizing: border-box;
@@ -76,20 +74,24 @@ div.back_block1:before {
 	background-color: #77a;
 }
 .red.active {
-	background-color: #d66;
+	background-color: #e66;
 }
 .green.active {
-	background-color: #6d6;
+	background-color: #6e6;
 }
 .blue.active {
-	background-color: #66d;
+	background-color: #66e;
 }
+
 .red:active {
-	background-color: #b66;
+    border:1px inset #363;
+	background-color: #744;
 }
 .green:active {
-	background-color: #6b6;
+    border:1px inset #363;
+	background-color: #474;
 }
 .blue:active {
-	background-color: #66b;
+    border:1px inset #363;
+	background-color: #447;
 }
