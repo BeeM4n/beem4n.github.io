@@ -42,6 +42,11 @@ div.back_block {
 	width: 10%; 
 	height: 10%;
 }
+div.back_block.active {
+    border-radius: 0;
+    border:1px solid #696;
+    outline:1px solid #696;
+}
 div.hover_block {
 	box-sizing: border-box;
 	float: left;
@@ -69,4 +74,13 @@ div.back_block1:before {
 }
 .blue {
 	background-color: #77a;
+}
+.red.active {
+	background-color: #daa;
+}
+.green.active {
+	background-color: #ada;
+}
+.blue.active {
+	background-color: #aad;
 }

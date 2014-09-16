@@ -8,7 +8,7 @@ angular.module('notTetris', [])
         $scope.array100.forEach(setRandomColor)
         function setRandomColor(item, i, arr) {
             var randomColor = $scope.colorsArray[Math.floor(Math.random()*$scope.colorsArray.length)]
-            $scope.backBlocks.push({id: i, color: randomColor})
+            $scope.backBlocks.push({id: i, color: randomColor, active: ''})
         }
         $scope.dump = $scope.backBlocks.count;
     }]);
