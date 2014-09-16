@@ -1,37 +1,21 @@
-<html>
-<head>
-	<title></title>
-</head>
-<body style='background-color: #ffe'>
-	<div style='vertical-align: bottom;' class='wrapper'>
-		<div style="height: 50em; width: 50em; position: absolute; top: 0; left: 0; right: 0; bottom: 0; border: 2px solid #bba; margin: auto; padding: 0;" class='field'>
-			<div style="box-sizing: boder-box; display: inline-block; width: 18%; height: 18%; padding: 0; margin: 1%; background-color: #554;"></div>
-			<div style="box-sizing: boder-box; display: inline-block; width: 18%; height: 18%; padding: 0; margin: 1%; background-color: #554;"></div>
-			<div style="box-sizing: boder-box; display: inline-block; width: 18%; height: 18%; padding: 0; margin: 1%; background-color: #554;"></div>
-			<div style="box-sizing: boder-box; display: inline-block; width: 18%; height: 18%; padding: 0; margin: 1%; background-color: #554;"></div>
-			<div style="box-sizing: boder-box; display: inline-block; width: 18%; height: 18%; padding: 0; margin: 1%; background-color: #554;"></div>
-			<div style="box-sizing: boder-box; display: inline-block; width: 18%; height: 18%; padding: 0; margin: 1%; background-color: #554;"></div>
-			<div style="box-sizing: boder-box; display: inline-block; width: 18%; height: 18%; padding: 0; margin: 1%; background-color: #554;"></div>
-			<div style="box-sizing: boder-box; display: inline-block; width: 18%; height: 18%; padding: 0; margin: 1%; background-color: #554;"></div>
-			<div style="box-sizing: boder-box; display: inline-block; width: 18%; height: 18%; padding: 0; margin: 1%; background-color: #554;"></div>
-			<div style="box-sizing: boder-box; display: inline-block; width: 18%; height: 18%; padding: 0; margin: 1%; background-color: #554;"></div>
-			<div style="box-sizing: boder-box; display: inline-block; width: 18%; height: 18%; padding: 0; margin: 1%; background-color: #554;"></div>
-			<div style="box-sizing: boder-box; display: inline-block; width: 18%; height: 18%; padding: 0; margin: 1%; background-color: #554;"></div>
-			<div style="box-sizing: boder-box; display: inline-block; width: 18%; height: 18%; padding: 0; margin: 1%; background-color: #554;"></div>
-			<div style="box-sizing: boder-box; display: inline-block; width: 18%; height: 18%; padding: 0; margin: 1%; background-color: #554;"></div>
-			<div style="box-sizing: boder-box; display: inline-block; width: 18%; height: 18%; padding: 0; margin: 1%; background-color: #554;"></div>
-			<div style="box-sizing: boder-box; display: inline-block; width: 18%; height: 18%; padding: 0; margin: 1%; background-color: #554;"></div>
-			<div style="box-sizing: boder-box; display: inline-block; width: 18%; height: 18%; padding: 0; margin: 1%; background-color: #554;"></div>
-			<div style="box-sizing: boder-box; display: inline-block; width: 18%; height: 18%; padding: 0; margin: 1%; background-color: #554;"></div>
-			<div style="box-sizing: boder-box; display: inline-block; width: 18%; height: 18%; padding: 0; margin: 1%; background-color: #554;"></div>
-			<div style="box-sizing: boder-box; display: inline-block; width: 18%; height: 18%; padding: 0; margin: 1%; background-color: #554;"></div>
-			<div style="box-sizing: boder-box; display: inline-block; width: 18%; height: 18%; padding: 0; margin: 1%; background-color: #554;"></div>
-			<div style="box-sizing: boder-box; display: inline-block; width: 18%; height: 18%; padding: 0; margin: 1%; background-color: #554;"></div>
-			<div style="box-sizing: boder-box; display: inline-block; width: 18%; height: 18%; padding: 0; margin: 1%; background-color: #554;"></div>
-			<div style="box-sizing: boder-box; display: inline-block; width: 18%; height: 18%; padding: 0; margin: 1%; background-color: #554;"></div>
-			<div style="box-sizing: boder-box; display: inline-block; width: 18%; height: 18%; padding: 0; margin: 1%; background-color: #554;"></div>
-			
+<html ng-app="notTetris">
+	<head>
+		<link rel="stylesheet" href="css/main.css">
+		<script src="js/angular.min.js"></script>
+		<script src="js/main.js"></script>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<title>Title Goes Here</title>
+	</head>
+
+	<body ng-controller="NotTetrisController">
+		<div id="wrapper" class="wrapper">
+			<div id="field_wrapper" class="field">
+				<div ng-repeat="backBlock in backBlocks" class="back_block {{backBlock.color}}" id="{{id}}"></div>
+			</div>
+			<div class="push">
+			</div>
 		</div>
-	</div>
-</body>
+		
+	</body>
+
 </html>
