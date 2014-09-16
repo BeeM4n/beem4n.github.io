@@ -2,7 +2,7 @@ function getArray(i){return i?getArray(i-1).concat(i):[]}
 
 angular.module('notTetris', [])
     .controller('NotTetrisController', ['$scope', function($scope) {
-        $scope.colorsArray = ['red', 'green', 'blue'];
+        $scope.colorsArray = ['green', 'red', 'blue'];
         $scope.array100 = getArray(100);
         $scope.backBlocks = new Array();
         $scope.array100.forEach(setRandomColor)
