@@ -9,9 +9,7 @@
 
 	<body ng-controller="NotTetrisController">
     	<div id="field_wrapper" class="field">
-			<div ng-repeat="backBlock in backBlocks" class="back_block {{backBlock.color}} {{backBlock.active}}" id="{{id}}" ng-click="if (backBlock.active=='') {backBlock.active='active'} else {backBlock.active=''}">
-
-			</div>
+			<div ng-repeat="backBlock in backBlocks" class="back_block {{backBlock.color}}" ng-class="{active: backBlock.active}" id="{{id}}" ng-click="backBlock.active=!backBlock.active"></div>
     	</div>
 	</body>
 
