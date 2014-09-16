@@ -4,16 +4,13 @@
 		<script src="js/angular.min.js"></script>
 		<script src="js/main.js"></script>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8">
-		<title>Title Goes Here</title>
+		<title>Something</title>
 	</head>
 
 	<body ng-controller="NotTetrisController">
-		<div id="wrapper" class="wrapper">
-			<div id="field_wrapper" class="field">
-				<div ng-repeat="backBlock in backBlocks" class="back_block {{backBlock.color}}" id="{{id}}"></div>
-			</div>
-		</div>
-		
+    	<div id="field_wrapper" class="field">
+			<div ng-repeat="backBlock in backBlocks" class="back_block {{backBlock.color}}" id="{{id}}"></div>
+    	</div>
 	</body>
 
 </html>

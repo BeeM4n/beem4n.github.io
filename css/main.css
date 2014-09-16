@@ -1,14 +1,11 @@
 body {
 	margin: 0; 
-	padding: 0px; 
-	background-color: #efe;
+	padding: 0px;
+    background-color: #9b9;
 }
 div.wrapper {
-
 	line-height: 10vh;
 	margin:0 auto;
-
-	background-color: #9b9; 
 	border: 2px solid #9b9;
 	padding: 0px;
 	vertical-align: middle;
@@ -62,11 +59,11 @@ div.back_block1:before {
 }
 
 .red {
-	background-color: #855;
+	background-color: #a77;
 }
 .green {
-	background-color: #585;
+	background-color: #7a7;
 }
 .blue {
-	background-color: #558;
+	background-color: #77a;
 }
