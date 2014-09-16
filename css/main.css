@@ -85,13 +85,13 @@ div.back_block1:before {
 
 .red:active {
     border:1px inset #363;
-	background-color: #744;
+	background-color: #966;
 }
 .green:active {
     border:1px inset #363;
-	background-color: #474;
+	background-color: #696;
 }
 .blue:active {
     border:1px inset #363;
-	background-color: #447;
+	background-color: #669;
 }
