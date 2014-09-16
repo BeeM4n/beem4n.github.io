@@ -1,7 +1,7 @@
 body {
 	margin: 0; 
 	padding: 0px;
-    background-color: #9b9;
+    background-color: #cee;
 }
 div.wrapper {
 	line-height: 10vh;
@@ -10,6 +10,7 @@ div.wrapper {
 	padding: 0px;
 	vertical-align: middle;
     text-align: center;
+
 }
 div.field {
     position: absolute;
@@ -22,6 +23,8 @@ div.field {
 	width: 95vh;
 	height: 95vh;
 	box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: #363;
 }
 div.push {
 	display: inline-block;
@@ -33,7 +36,7 @@ div.push {
 div.back_block {
 	box-sizing: border-box;
 	float: left; 
-	border:1px solid #9b9; 
+	border:1px solid #363;
 	border-radius: 3px; 
 	display: inline-block; 
 	width: 10%; 
