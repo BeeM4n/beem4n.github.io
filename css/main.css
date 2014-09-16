@@ -4,14 +4,10 @@ body {
 	background-color: #efe;
 }
 div.wrapper {
-	position: absolute; 
+
 	line-height: 10vh;
-	margin:0 auto; 
-	height: 100vh;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
+	margin:0 auto;
+
 	background-color: #9b9; 
 	border: 2px solid #9b9;
 	padding: 0px;
@@ -19,7 +15,12 @@ div.wrapper {
     text-align: center;
 }
 div.field {
-	display: inline-block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: inline-block;
 	margin: auto;
 	width: 95vh;
 	height: 95vh;
