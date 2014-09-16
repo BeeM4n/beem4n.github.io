@@ -76,11 +76,20 @@ div.back_block1:before {
 	background-color: #77a;
 }
 .red.active {
-	background-color: #daa;
+	background-color: #d66;
 }
 .green.active {
-	background-color: #ada;
+	background-color: #6d6;
 }
 .blue.active {
-	background-color: #aad;
+	background-color: #66d;
+}
+.red:active {
+	background-color: #b66;
+}
+.green:active {
+	background-color: #6b6;
+}
+.blue:active {
+	background-color: #66b;
 }
